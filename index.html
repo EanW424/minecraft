@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xây Dựng Công Trình Minecraft</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Trang Chủ</a></li>
+          <li><a href="#build">Xây Dựng</a></li>
+          <li><a href="#community">Cộng Đồng</a></li>
+          <li><a href="#support">Hỗ Trợ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="intro">
+      <h1>Chào Mừng Đến Với Công Cụ Xây Dựng Công Trình Minecraft!</h1>
+      <p>
+        Khám phá các công trình Minecraft, thiết kế và tạo ra thế giới của bạn
+        ngay bây giờ.
+      </p>
+    </section>
+
+    <section id="build">
+      <h2>Công Cụ Xây Dựng</h2>
+      <div class="build-container">
+        <div class="block-selector">
+          <h3>Chọn Block</h3>
+          <button class="block" onclick="selectBlock('stone')">Đá</button>
+          <button class="block" onclick="selectBlock('wood')">Gỗ</button>
+          <button class="block" onclick="selectBlock('grass')">Cỏ</button>
+        </div>
+        <div id="building-area" class="building-area">
+          <p>Chọn block và bắt đầu xây dựng!</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Minecraft Build Tools</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
